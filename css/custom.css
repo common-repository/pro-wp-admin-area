@@ -1,0 +1,39 @@
+/* CSS Document */
+
+
+
+.col-sm-9 > input[type="text"] {
+
+    max-width: 291px !important;
+
+    width: 100% !important;
+
+}
+
+.from-group {
+
+    display: inline-block !important;
+
+    margin-bottom: 8px !important;
+
+    width: 100% !important;
+
+}
+
+.form-group select {
+
+    margin-left: 20px !important;
+
+}
+
+
+
+.form-group textarea {
+
+    height: 115px;
+
+    max-width: 303px;
+
+    width: 100%;
+
+}

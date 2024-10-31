@@ -1,0 +1,307 @@
+.ganalytics .hr-thin{
+    background-color:#ccc;
+    border-width:0;
+    color:#ccc;
+    height:1px;
+    line-height:0;
+    page-break-after:always;
+    text-align:center;
+    width: 100%;
+    margin: 0;
+}
+.ganalytics .button-danger{
+     background-color: #d14836;
+     background-image: -webkit-gradient(linear,left top,left bottom,from(#E8503C),to(#d14836));
+     background-image: -webkit-linear-gradient(top,#E8503C,#d14836);
+     background-image: -moz-linear-gradient(top,#E8503C,#d14836);
+     background-image: -ms-linear-gradient(top,#E8503C,#d14836);
+     background-image: -o-linear-gradient(top,#E8503C,#d14836);
+     background-image: linear-gradient(to bottom,#E8503C,#d14836);
+     border-color: #d14836;
+     border-bottom-color: #B83625;
+     -webkit-box-shadow: inset 0 1px 0 rgba(237,134,121,0.5);
+     box-shadow: inset 0 1px 0 rgba(237,134,121,0.5);
+     color: #fff;
+     text-decoration: none;
+     text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+ }
+.ganalytics .button-danger:hover{
+    background-color: #d14836;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#F05E4A),to(#d14836));
+    background-image: -webkit-linear-gradient(top,#F05E4A,#d14836);
+    background-image: -moz-linear-gradient(top,#F05E4A,#d14836);
+    background-image: -ms-linear-gradient(top,#F05E4A,#d14836);
+    background-image: -o-linear-gradient(top,#F05E4A,#d14836);
+    background-image: linear-gradient(to bottom,#F05E4A,#d14836);
+    border-color: #d14836;
+    border-bottom-color: #B83625;
+    -webkit-box-shadow: inset 0 1px 0 rgba(237,134,121,0.5);
+    box-shadow: inset 0 1px 0 rgba(237,134,121,0.5);
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+.ganalytics .ga-header-app-icon{
+    background: url('../img/ganalytics-icon-32_32.png') center no-repeat !important;
+}
+
+.ganalytics>h2{
+    padding-right: 0px;
+}
+
+
+/* Dashboard Top Header Block With 4 Cols */
+.ganalytics.dashboard .ga-header-block-wrapper{
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 1em;
+    min-height: 80px;
+}
+.ganalytics.dashboard .ga-header-table-cell{
+    width: 20%;
+    padding-left: 5%;
+}
+.ganalytics.dashboard .ga-header-title{
+    color: #333;
+    font-size: 11px;
+    font-family: Helvetica ,Arial, sans-serif;
+    font-weight: bold;
+}
+.ganalytics.dashboard .ga-header-value-current{
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Helvetica ,Arial, sans-serif;
+}
+.ganalytics.dashboard .ga-header-value-change{
+    font-size: 11px;
+    margin: 0;
+    padding: 3px 5px;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #999;
+}
+.ganalytics.dashboard .ga-header-value-change.change-up{
+    background: #66b142;
+}
+.ganalytics.dashboard .ga-header-value-change.change-down{
+    background: #c32f16;
+}
+.ganalytics.dashboard .ga-visits-graph-wrapper{
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+
+.ganalytics.dashboard .top-list-wrapper{
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+.ganalytics.dashboard .top-list-wrapper ol{
+    margin-left: 17px;
+    margin-top: 5px;
+}
+.ganalytics.dashboard .top-list-divider{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #A3DAFF;
+}
+
+/************ Compare page ****************/
+.ganalytics.compare .ga-compare-block-wrapper{
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 1em;
+    min-height: 80px;
+}
+.ganalytics.compare .ga-compare-time-period{
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 3px;
+}
+.ganalytics.compare .ga-compare-block-wrapper .form-table td{
+    vertical-align: top;
+}
+.ganalytics.compare .compare-overview-table{
+    margin-top: 0;
+}
+.ganalytics.compare .compare-overview-table td{
+    padding-top: 0;
+}
+.ganalytics.compare .compare-overview-table tr td:last-child{
+    font-weight: bold;
+}
+.ganalytics.compare ol{
+    margin-top: 5px;
+    margin-left: 18px;
+}
+
+/*************** Report Page ****************/
+.ganalytics.report .ga-report-block-wrapper{
+    margin-top: 1em;
+    min-height: 80px;
+}
+.ganalytics.report .ga-report-time-period{
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 3px;
+}
+.ganalytics.report .ga-report-time-label{
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+.ganalytics.report .ga-report-table tr:nth-child(even){
+    background: #fcfcfc;
+}
+.ganalytics.report .ga-report-table tr:hover{
+    background: #eee;
+}
+.ganalytics.report .ga-report-table th{
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.ganalytics.report .ga-report-table tr td:nth-child(1){
+    font-weight: bold;
+    line-height: 20px;
+}
+.ganalytics.report .ga-report-table tr td:nth-child(n+2){
+    width: 13%;
+}
+/* Single Post styles */
+.ganalytics.report .ga-header-block-wrapper{
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 1em;
+    min-height: 80px;
+}
+.ganalytics.report .ga-header-table-cell{
+    width: 20%;
+    padding-left: 5%;
+}
+.ganalytics.report .ga-header-title{
+    color: #333;
+    font-size: 11px;
+    font-family: Helvetica ,Arial, sans-serif;
+    font-weight: bold;
+}
+.ganalytics.report .ga-header-value-current{
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Helvetica ,Arial, sans-serif;
+}
+.ganalytics.report .single-post-meta tr .col1{
+    width: 8%;
+    font-weight: bold;
+}
+.ganalytics.report .single-post-meta tr .col2{
+    width: 95%;
+    font-weight: bold;
+}
+.ganalytics.report .single-post-meta tr.post-url .col2{
+    font-weight: normal;
+}
+.ganalytics.report .ga-header-value-current{
+    color: #1E8C03;
+}
+.ganalytics.report .ga-visits-graph-wrapper{
+    border: 1px solid #dfdfdf;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+/********************* Monthly Report Page **********************/
+.ganalytics.monthly-report .ga-monthly-report-block-wrapper{
+    margin-top: 1em;
+    min-height: 80px;
+}
+.ganalytics.monthly-report .ga-monthly-report-start-date{
+    font-size: 12px;
+    font-weight: normal;
+    float: right;
+}
+.ganalytics.monthly-report .ga-monthly-report-table tr:nth-child(even){
+    background: #fcfcfc;
+}
+.ganalytics.monthly-report .ga-monthly-report-table tr:hover{
+    background: #eee;
+}
+.ganalytics.monthly-report .ga-monthly-report-table th{
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.ganalytics.monthly-report .ga-monthly-report-table tr td:nth-child(1){
+    font-weight: bold;
+    line-height: 20px;
+}
+.ganalytics.monthly-report .ga-monthly-report-table tr td:nth-child(n+2){
+    width: 16%;
+}
+
+/**************** Mobile Devices Page ******************/
+.ganalytics.mobile-devices .ga-mobile-devices-block-wrapper{
+    margin-top: 1em;
+    min-height: 80px;
+}
+.ganalytics.mobile-devices .ga-mobile-devices-time-period{
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 3px;
+}
+.ganalytics.mobile-devices .ga-mobile-devices-time-label{
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+.ganalytics.mobile-devices .ga-mobile-devices-table tr:nth-child(even){
+    background: #fcfcfc;
+}
+.ganalytics.mobile-devices .ga-mobile-devices-table tr:hover{
+    background: #eee;
+}
+.ganalytics.mobile-devices .ga-mobile-devices-table th{
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.ganalytics.mobile-devices .ga-mobile-devices-table tr td:nth-child(1){
+    width: 5%;
+}
+.ganalytics.mobile-devices .ga-mobile-devices-table tr td:nth-child(2){
+    font-weight: bold;
+    line-height: 20px;
+    width: 70%;
+}
+.ganalytics.mobile-devices .ga-mobile-devices-table tr td:last-child(3){
+    width: 25%;
+}
